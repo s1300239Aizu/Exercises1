@@ -7,6 +7,11 @@ int main()
   int num[2], value = 0;
   srand(time(NULL));
   
+  char str[10];
+  printf("What is your name?\n");
+  scanf("%s",str);
+  printf("Hello, %s\n",str);
+
   for(int i = 0; i < 2; i++)
     {
       num[i] = rand() % 6 + 1;
